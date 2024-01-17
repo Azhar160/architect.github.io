@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar a:hover
+{
+  background-color: rgb(233, 233, 233);
+}
+
+#about-member img
+{
+  filter: grayscale(.8);
+}
+
+#about-member button:hover
+{
+  background-color: rgb(150, 147, 147);
+  transition: all .5s;
+}
+
+.navbar-collapse
+{
+  position: relative;
+}
+
+.navbar-nav
+{
+  position: absolute;
+  right: 2rem;
+}
+
+
+@media (max-width:992px) {
+
+    
+    #project-section .row
+{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+}
+
+@media (max-width:576px) {
+  #about-member .same
+{
+margin-bottom: 2rem;
+}
+}
+
+    
+
+  
